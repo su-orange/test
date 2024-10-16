@@ -1,2 +1,2 @@
 # test
-用来做一个测试
+安装pytorch.txt用来指导如何安装pytorch
