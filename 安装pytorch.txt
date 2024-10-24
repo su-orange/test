@@ -1,9 +1,9 @@
-﻿1.下载Anaconda3 -2022.10（百度网盘）
+﻿1.下载Anaconda3 -2022.10（百度网盘） 链接：https://pan.baidu.com/s/1F2qTd-NatC3F1KaTEE4oaQ?pwd=lzkf  提取码：lzkf 
 2.安装Anaconda3，Just me——D:/Anaconda3——两个全选 add，register
-3.将Anaconda等快捷方式拉到桌面上
+3.在windows启动栏，将Anaconda等快捷方式拉到桌面上
 4.打开Anaconda，不要升级
 5.打开Anaconda Prompt
-6.查看是否安装cuda，代码：nvidia-smi
+6.查看是否安装cuda，代码：nvidia-smi 
 7.安装虚拟环境，代码：conda create -n pytorch python=3.9
 8.输入y,回车
 9.激活虚拟环境：代码：conda activate pytorch
