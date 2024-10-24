@@ -20,9 +20,9 @@ import torch
 import torchvision
 print("torch:",torch.__version__)
 print("torchvision:",torchvision.__version__)
-print("GPU:",torch.cuda.is_available())#cuda是否可用
-print(torch.cuda.current_device())
-print(torch.version.cuda)
+print("GPU:",torch.cuda.is_available()) #cuda是否可用
+print(torch.cuda.current_device())  # cuda设备编号 
+print(torch.version.cuda) # cuda版本
 print(torch.backends.cudnn.version())
 
 16. jupyter保存路径修改，在D盘新建文件夹jupyter，打开桌面的jupyter快捷方式的属性，目标最后""内修改为D:\jupyter，起始位置：D:\jupyter
